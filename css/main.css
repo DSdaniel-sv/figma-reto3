@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 960px;
+    margin: auto;
+    background-color: red;
+}
+
+/*Header*/
+.header{
+    position: relative;
+    color: white;
+}
+.header img{
+    width: 100%;
+    display: block;
+}
+.header h1, .header h2{
+    position: absolute;
+}
+.header h1{
+    text-align: center;
+    width: 100%;
+    top: 70px;
+}
+.header h2{
+    bottom: 150px;
+    padding: 30px 20px;
+    left: 150px;
+    background-color: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+}
+
+/*section about-me*/
+.about-me{
+    padding: 50px;
+    background-color: #7299FE;
+}
+.about-me h1{
+    text-align: center;
+    padding: 20px;
+    color:#1D06A7;
+    font-size: 35px;
+}
+.about-me p{
+    padding: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
+.about-me button{
+    background-color: #D16FFF;
+    color: white;
+    width: 200px;
+    height: 65px;
+    margin-top: 25px;
+    font-size: 25px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+/*my-skills*/
+.my-skills{
+    background-color: #9022FF;
+    padding: 40px;
+}
+.my-skills h1{
+    color:#26CC4B;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+.skills{
+    height: auto;
+}
+.skills-list{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skills-list .list-1{
+    font-size: 20px;
+}
+.skills-list .list-2{
+    font-size: 20px;
+}
+.skills-list progress{
+    font-size: 35px;
+}
+
+/*portafolio*/
+.my-portafolio{
+    background-color:#FFD233;
+    padding-top: 20px;
+}
+.my-portafolio h1{
+    text-align: center;
+    color: #00AD84;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.container-img{
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+.port-img1 {
+    margin: 20px 5px;  
+}
+.port-img2{
+    margin: 20px 5px;
+}
+.port-img1 img{
+    justify-items: center;
+    padding: 20px;
+}
+.port-img2 img{
+    justify-items: center;
+    padding: 20px;
+}
+
+/*Clientes*/
+.my-clients{
+    background-color:#3F4E62;
+}
+.my-clients h1{
+    text-align: center;
+    color: #ADFF28;
+    font-size: 35px;
+    padding: 10px;
+}
+.clie-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.clie-img img{
+    padding: 5px 20px;
+}
+
+/*Contacto*/
+.my-contact{
+    background-color:#1687A0;
+}
+
+.my-contact h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    color:#FF1B1B;
+}
+.input-1{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.input-2{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.input-3{             
+    padding: 20px 40px;
+}
+.input-1 input, .input-2 input{
+    padding-bottom: 45px;
+    padding-right: 210px;
+}
+.input-3 input{
+    padding-bottom: 145px;
+    padding-right: 680px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+}
+button{
+    color: white;
+    background-color:#233451;
+    padding: 20px 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
